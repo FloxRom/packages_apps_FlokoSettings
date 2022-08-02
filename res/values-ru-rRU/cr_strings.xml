@@ -449,7 +449,7 @@
     <string name="lockscreen_albumart_filter_blur">Размытие</string>
     <string name="lockscreen_albumart_filter_grayblur">Оттенки серого и размытие</string>
     <!-- Pulse music visualizer -->
-    <string name="pulse_help_policy_notice_title">О Pulse</string>
+    <string name="pulse_help_policy_notice_title">О Визуализаторе</string>
     <string name="pulse_help_policy_notice_summary">Визуализатор - это великолепный аудио-графический эквалайзер, работающий при воспроизведении музыки на устройстве</string>
     <string name="pulse_settings">Визуализатор</string>
     <string name="pulse_settings_summary">Графический эквалайзер для панели навигации и экрана блокировки</string>
@@ -588,6 +588,7 @@
     <!-- Battery light settings -->
     <string name="light_brightness_category">Настройки световой индикации</string>
     <string name="battery_light_title">Индикация батареи</string>
+    <string name="battery_light_enable_title">Включить индикатор батареи</string>
     <string name="battery_light_summary">Настроить цвет индикатора на основе уровня заряда батареи и статуса</string>
     <string name="battery_low_pulse_title">Мигать при низком уровне заряда</string>
     <string name="battery_light_full_charge_disabled_title">Выключать при полной зарядке батареи</string>
@@ -598,6 +599,7 @@
     <string name="battery_light_really_full_color_title">Заряжена (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Индикатор уведомлений</string>
+    <string name="notification_light_enable_title">Включить индикатор уведомлений</string>
     <string name="notification_light_summary">Настроить цвет индикатора для уведомлений</string>
     <string name="notification_light_general_title">Общие</string>
     <string name="notification_light_advanced_title">Расширенные настройки</string>
@@ -615,7 +617,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Индикатор событий</string>
     <string name="led_notification_text">Светодиод включен в настройках</string>
-    <string name="notification_light_no_apps_summary">Чтобы разрешить управление приложениями, включите \'%1$s\' и нажмите \'\u002b\' в строке меню</string>
+    <string name="notification_light_add_apps_empty_summary">Чтобы добавить управление приложениями, активируйте \'%1$s\' и нажмите \'Добавить\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Всплывающие уведомления</string>
     <string name="notification_heads_up_summary">Разрешить всплывающие уведомления</string>
@@ -652,9 +654,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Игровой режим</string>
     <string name="gaming_mode_summary">Дополнительные возможности для полноценного погружения в игру</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Маленькие часы</string>
-    <string name="lockscreen_small_clock_summary">Принудительно маленькие часы на экране блокировки, даже если нет уведомлений</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Анимация Pixel</string>
     <string name="pixel_navbar_anim_summary">Включить анимацию кнопки «Домой» для 2-х / 3-х кнопочной панели навигации</string>
@@ -792,7 +791,7 @@
     <string name="columbus_gesture_enrollment_settings">Открыть настройки</string>
     <string name="columbus_gesture_enrollment_try_it">Попробовать</string>
     <string name="columbus_gesture_training_action_no_selection_error">Выберите действие, которое нужно выполнить</string>
-    <string name="columbus_gesture_training_action_text">Вы можете выбрать действие, которое выполняется при коротком касании. Этот параметр можно будет изменить в настройках.</string>
+    <string name="columbus_gesture_training_action_text">Вы можете выбрать действие, которое выполняется при быстром касании. Этот параметр можно будет изменить в настройках.</string>
     <string name="columbus_gesture_training_action_title">Выберите действие для короткого касания</string>
     <string name="columbus_gesture_training_enrolling_first_gesture">… Вы коснулись устройства дважды (1 попытка из 2)</string>
     <string name="columbus_gesture_training_enrolling_first_gesture_text">Попробуйте ещё раз. Быстрым движением дважды коснитесь задней панели телефона.</string>
@@ -874,4 +873,30 @@
     <string name="battery_charge_cycles">Завершенные циклы зарядки</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Температура батареи</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Прозрачность панели</string>
+    <string name="qs_transparency_summary">Установка уровня прозрачности панели быстрых настроек</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Трафик приложений</string>
+    <string name="qs_footer_datausage_summary">Показывать статистику использования трафика в нижней части быстрых настроек</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Анимация плиток</string>
+    <string name="qs_tile_animation_style_title">Стиль анимации</string>
+    <string name="qs_tile_animation_duration_title">Длительность анимации</string>
+    <string name="qs_tile_animation_interpolator_title">Интерполятор анимации</string>
+    <string name="qs_tile_animation_style_off">Без анимации</string>
+    <string name="qs_tile_animation_style_rotate">Поворот</string>
+    <string name="qs_tile_animation_style_flipx">Листание по оси X</string>
+    <string name="qs_tile_animation_style_flipy">Листание по оси Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Линейный</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Ускорение</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Замедление</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Ускорение и замедление</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Отскок</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Перекручивание</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Раскручивание</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Раскрутка и перекручивание</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Звук снимка экрана</string>
+    <string name="screenshot_shutter_sound_summary">Воспроизводить звук при создании скриншота</string>
 </resources>

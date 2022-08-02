@@ -48,12 +48,12 @@
     <string name="always">Sempre</string>
     <string name="caution">Cuidado</string>
     <string name="delete">Apagar</string>
-    <string name="delete_message">Remover o item seleccionado?</string>
+    <string name="delete_message">Remover o item selecionado?</string>
     <string name="choose_app">Escolher aplicação</string>
     <string name="enable">Ativar</string>
     <string name="disable">Desativar</string>
     <!-- Changelog -->
-    <string name="changelog_crdroid_title">Changelog actual</string>
+    <string name="changelog_crdroid_title">Changelog atual</string>
     <string name="changelog_crdroid_summary">Ver as alterações na ROM instalada</string>
     <string name="changelog_crdroid_error">Não foi possível carregar o changelog</string>
     <!-- About crDroid -->
@@ -334,7 +334,7 @@
     <string name="status_bar_clock_auto_hide_summary">Ocultar o relógio em intervalos regulares</string>
     <string name="status_bar_clock_auto_hide_hdur_title">Duração da ocultação</string>
     <string name="status_bar_clock_auto_hide_hdur_summary">Número de segundos para ocultar o relógio</string>
-    <string name="status_bar_clock_auto_hide_sdur_title">Mostrar duração</string>
+    <string name="status_bar_clock_auto_hide_sdur_title">Duração da exibição</string>
     <string name="status_bar_clock_auto_hide_sdur_summary">Número de segundos a esperar antes de ocultar o relógio</string>
     <string name="status_bar_am_pm_title">Estilo AM/PM</string>
     <string name="status_bar_am_pm_info">O formato de 24 horas está ativado</string>
@@ -588,6 +588,7 @@
     <!-- Battery light settings -->
     <string name="light_brightness_category">Configurações de brilho do LED</string>
     <string name="battery_light_title">Luz de bateria</string>
+    <string name="battery_light_enable_title">Ativar luz de bateria</string>
     <string name="battery_light_summary">Configurar a cor do LED com base no nível e estado da bateria</string>
     <string name="battery_low_pulse_title">Piscar se a bateria estiver fraca</string>
     <string name="battery_light_full_charge_disabled_title">Desligar quando totalmente carregada</string>
@@ -598,6 +599,7 @@
     <string name="battery_light_really_full_color_title">Totalmente carregada (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Luz de notificação</string>
+    <string name="notification_light_enable_title">Ativar luz de notificação</string>
     <string name="notification_light_summary">Configurar a cor do LED para notificações</string>
     <string name="notification_light_general_title">Geral</string>
     <string name="notification_light_advanced_title">Avançado</string>
@@ -615,7 +617,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Configurações do LED</string>
     <string name="led_notification_text">LED ativado pelas configurações</string>
-    <string name="notification_light_no_apps_summary">Para adicionar o controlo por app, ative \'%1$s\' e pressione \'\u002b\' na barra de menu</string>
+    <string name="notification_light_add_apps_empty_summary">Para adicionar controlo por app, ative \'%1$s\' e pressione \'Adicionar\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Notificações flutuantes</string>
     <string name="notification_heads_up_summary">Permitir notificações flutuantes</string>
@@ -652,9 +654,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Espaço de jogo</string>
     <string name="gaming_mode_summary">Funcionalidades adicionais para uma experiência de jogo envolvente</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Relógio pequeno</string>
-    <string name="lockscreen_small_clock_summary">Forçar relógio pequeno no ecrã de bloqueio mesmo quando não houver notificações</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animação do pixel</string>
     <string name="pixel_navbar_anim_summary">Ativar animação no estilo pixel para a barra de navegação de 2 ou 3 botões</string>
@@ -747,7 +746,7 @@
     <!-- Wifi/Bluetooth auto timeout -->
     <string name="wifi_timeout">Tempo limite do Wi-Fi</string>
     <string name="wifi_timeout_summary">Não desativar o Wi-Fi automaticamente</string>
-    <string name="wifi_timeout_summary_auto">O Wi-Fi será desactivado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver ligado a uma rede</string>
+    <string name="wifi_timeout_summary_auto">O Wi-Fi será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se não estiver ligado a uma rede</string>
     <string name="bluetooth_timeout">Tempo limite do Bluetooth</string>
     <string name="bluetooth_timeout_summary">Não desativar o Bluetooth automaticamente</string>
     <string name="bluetooth_timeout_summary_auto">O Bluetooth será desativado após <xliff:g id="timeout_description">%1$s</xliff:g> se não houver dispositivos ligados</string>
@@ -874,4 +873,30 @@
     <string name="battery_charge_cycles">Ciclos de carga concluídos</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura da bateria</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Transparência do fundo</string>
+    <string name="qs_transparency_summary">Definir a transparência do fundo do painel de definições rápidas</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Utilização de dados</string>
+    <string name="qs_footer_datausage_summary">Mostrar resumo da utilização de dados no rodapé das definições rápidas</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Animação dos mosaicos</string>
+    <string name="qs_tile_animation_style_title">Estilo da animação</string>
+    <string name="qs_tile_animation_duration_title">Duração da animação</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador da animação</string>
+    <string name="qs_tile_animation_style_off">Sem animação</string>
+    <string name="qs_tile_animation_style_rotate">Rodar</string>
+    <string name="qs_tile_animation_style_flipx">Inverter X</string>
+    <string name="qs_tile_animation_style_flipy">Inverter Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar/desacelerar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Pular</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Adiantar</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Antecipar</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Antecipar/adiantar</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Som de captura de ecrã</string>
+    <string name="screenshot_shutter_sound_summary">Reproduzir um som ao fazer uma captura de ecrã</string>
 </resources>

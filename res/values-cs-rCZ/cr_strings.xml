@@ -588,6 +588,7 @@
     <!-- Battery light settings -->
     <string name="light_brightness_category">Nastavení vlastností světla LED</string>
     <string name="battery_light_title">Světelná signalizace baterie</string>
+    <string name="battery_light_enable_title">Zapnout LED baterie</string>
     <string name="battery_light_summary">Konfigurovat barvy, jas a\u00a0frekvenci blikání světla LED podle úrovně nabití a\u00a0stavu baterie</string>
     <string name="battery_low_pulse_title">Blikat při nízkém stavu nabití baterie</string>
     <string name="battery_light_full_charge_disabled_title">Vypnout při úplném nabití</string>
@@ -598,6 +599,7 @@
     <string name="battery_light_really_full_color_title">Plně nabito (100\u00a0%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">LED oznámení</string>
+    <string name="notification_light_enable_title">Zapnout oznamovací LED</string>
     <string name="notification_light_summary">Konfigurovat barvy, jas a\u00a0frekvenci blikání světla LED při přijetí oznámení</string>
     <string name="notification_light_general_title">Obecné</string>
     <string name="notification_light_advanced_title">Rozšířené</string>
@@ -615,7 +617,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Nastavení LED</string>
     <string name="led_notification_text">LED světlo povoleno v\u00a0nastavení</string>
-    <string name="notification_light_no_apps_summary">Chcete‑li přidat nastavení podle jednotlivé aplikace, aktivujte „%1$s“ a\u00a0stiskněte v\u00a0panelu nabídky tlačítko „\u002b“</string>
+    <string name="notification_light_add_apps_empty_summary">Chcete‑li přidat ovládací prvek aplikace, aktivujte „%1$s“ a\u00a0stiskněte tlačítko „Přidat“</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Plovoucí oznámení</string>
     <string name="notification_heads_up_summary">Povolit plovoucí oznámení</string>
@@ -652,9 +654,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Herní prostor</string>
     <string name="gaming_mode_summary">Další funkce pro pohlcující herní zážitek</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Malé hodiny</string>
-    <string name="lockscreen_small_clock_summary">Vynutit malé hodiny na obrazovce uzamčení i\u00a0v\u00a0případě, že oznámení nejsou přítomna</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animace Pixel</string>
     <string name="pixel_navbar_anim_summary">Povolit animaci ve stylu Pixel na dvoutlačítkovém / třítlačítkovém navigačním panelu</string>
@@ -874,4 +873,30 @@
     <string name="battery_charge_cycles">Dokončených nabíjecích cyklů</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Teplota baterie</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Průhlednost pozadí</string>
+    <string name="qs_transparency_summary">Nastavit úroveň průhlednosti pro pozadí QS</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Využití dat</string>
+    <string name="qs_footer_datausage_summary">Zobrazit přehled využití dat v\u00a0zápatí rychlého nastavení</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Animace dlaždic</string>
+    <string name="qs_tile_animation_style_title">Styl animace</string>
+    <string name="qs_tile_animation_duration_title">Doba trvání animace</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolátor animace</string>
+    <string name="qs_tile_animation_style_off">Žádná animace</string>
+    <string name="qs_tile_animation_style_rotate">Otočení</string>
+    <string name="qs_tile_animation_style_flipx">Překlopení X</string>
+    <string name="qs_tile_animation_style_flipy">Překlopení Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineární</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Zrychlení</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Zpomalení</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Zrychlení a\u00a0Zpomalení</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Odskočení</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Překročení</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Předbíhání</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Předbíhání a\u00a0Překročení</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Zvuk snímku obrazovky</string>
+    <string name="screenshot_shutter_sound_summary">Přehrát zvuk při pořízení snímku obrazovky</string>
 </resources>

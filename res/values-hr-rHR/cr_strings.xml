@@ -588,6 +588,7 @@
     <!-- Battery light settings -->
     <string name="light_brightness_category">Postavke svjetline LED-a</string>
     <string name="battery_light_title">LED pokazatelj baterije</string>
+    <string name="battery_light_enable_title">Enable battery light</string>
     <string name="battery_light_summary">Konfigurirajte boju LED-a na temelju razine baterije i statusa</string>
     <string name="battery_low_pulse_title">Pulsiraj ako je baterija slaba</string>
     <string name="battery_light_full_charge_disabled_title">Isključi kada se potpuno napuni</string>
@@ -598,6 +599,7 @@
     <string name="battery_light_really_full_color_title">Napunjeno (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Svjetlo obavijesti</string>
+    <string name="notification_light_enable_title">Enable notification light</string>
     <string name="notification_light_summary">Konfigurirajte LED boju za obavijesti</string>
     <string name="notification_light_general_title">Općenito</string>
     <string name="notification_light_advanced_title">Napredno</string>
@@ -615,7 +617,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Postavke svjetla obavijesti</string>
     <string name="led_notification_text">LED svjetlo je omogućeno u postavkama</string>
-    <string name="notification_light_no_apps_summary">Za dodavanje kontrole po aplikaciji, aktivirajte \"%1$s\" i pritisnite \"\u002b\" na traci izbornika</string>
+    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Plutajuće obavijesti</string>
     <string name="notification_heads_up_summary">Dopusti skočne obavijesti</string>
@@ -652,9 +654,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Prostor za igru</string>
     <string name="gaming_mode_summary">Dodatne značajke za impresivno iskustvo igranja</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Mali sat</string>
-    <string name="lockscreen_small_clock_summary">Nametni mali sat na zaključanom zaslonu čak i ako nema obavijesti</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animacija</string>
     <string name="pixel_navbar_anim_summary">Omogući animaciju u stilu piksela za navigacijsku traku s 2/3 tipke</string>
@@ -874,4 +873,30 @@
     <string name="battery_charge_cycles">Ciklusi punjenja su dovršeni</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura baterije</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
 </resources>

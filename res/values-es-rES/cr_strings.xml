@@ -589,6 +589,7 @@ Mantén presionado para establecer</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">Configuración del brillo del led de notificación</string>
     <string name="battery_light_title">Led de batería</string>
+    <string name="battery_light_enable_title">Activar luz de batería</string>
     <string name="battery_light_summary">Configurar el color del led basado en el nivel y estado de la batería</string>
     <string name="battery_low_pulse_title">Parpadear con batería baja</string>
     <string name="battery_light_full_charge_disabled_title">Apagar cuando la batería esté completamente cargada</string>
@@ -599,6 +600,7 @@ Mantén presionado para establecer</string>
     <string name="battery_light_really_full_color_title">Completamente cargado (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Indicador de notificaciones</string>
+    <string name="notification_light_enable_title">Activar luz de notificación</string>
     <string name="notification_light_summary">Configurar color del led para las notificaciones</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_advanced_title">Avanzado</string>
@@ -616,7 +618,7 @@ Mantén presionado para establecer</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Ajustes de led</string>
     <string name="led_notification_text">Luz led activada para los ajustes</string>
-    <string name="notification_light_no_apps_summary">Para añadir el control por aplicación, activa \'%1$s\' y presionar \'\u002b\' en la barra de menú</string>
+    <string name="notification_light_add_apps_empty_summary">Para añadir control por aplicación, activa \'%1$s\' y pulsa \'Añadir\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Notificaciones</string>
     <string name="notification_heads_up_summary">Permitir notificaciones emergentes</string>
@@ -653,9 +655,6 @@ Mantén presionado para establecer</string>
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Espacio de juego</string>
     <string name="gaming_mode_summary">Características adicionales para una experiencia de juego inmersiva</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Reloj pequeño</string>
-    <string name="lockscreen_small_clock_summary">Forzar reloj pequeño en pantalla de bloqueo incluso si las notificaciones están ausentes</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Animación Pixel</string>
     <string name="pixel_navbar_anim_summary">Activar animación de Pixel para la barra de navegación de 2 botones / 3 botones</string>
@@ -875,4 +874,30 @@ Mantén presionado para establecer</string>
     <string name="battery_charge_cycles">Ciclos de carga completados</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura de la batería</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Fondo transparente</string>
+    <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Consumo de datos</string>
+    <string name="qs_footer_datausage_summary">Resumen de uso de datos al pie del panel de los ajustes rápidos</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Animación de los ajustes rápidos</string>
+    <string name="qs_tile_animation_style_title">Estilo de la animación</string>
+    <string name="qs_tile_animation_duration_title">Duración de la animación</string>
+    <string name="qs_tile_animation_interpolator_title">Interpolador de la animación</string>
+    <string name="qs_tile_animation_style_off">Sin animación</string>
+    <string name="qs_tile_animation_style_rotate">Girar</string>
+    <string name="qs_tile_animation_style_flipx">Voltear X</string>
+    <string name="qs_tile_animation_style_flipy">Voltear Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Lineal</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar y desacelerar</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Excederse</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar y excederse</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
+    <string name="screenshot_shutter_sound_summary">Reproducir un sonido cuando se haga una captura</string>
 </resources>

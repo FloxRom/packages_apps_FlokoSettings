@@ -47,6 +47,15 @@
             android:entryValues="@array/qs_battery_style_values"
             android:defaultValue="-1" />
 
+        <!-- Battery location -->
+        <com.crdroid.settings.preferences.SystemSettingListPreference
+            android:key="qs_battery_location"
+            android:icon="@drawable/ic_battery"
+            android:title="@string/qs_battery_location_title"
+            android:entries="@array/qs_battery_location_entries"
+            android:entryValues="@array/qs_battery_location_values"
+            android:defaultValue="0" />
+
         <!-- Battery percent -->
         <com.crdroid.settings.preferences.SystemSettingListPreference
             android:key="qs_show_battery_percent"
@@ -93,10 +102,58 @@
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"/>
 
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:icon="@drawable/ic_color_bucket"
+            android:title="@string/qs_transparency_title"
+            android:summary="@string/qs_transparency_summary"
+            android:defaultValue="100"
+            settings:interval="1"
+            settings:units="%"
+            android:max="100"
+            android:min="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/qs_tile_animation_title">
+
+        <com.crdroid.settings.preferences.SystemSettingListPreference
+            android:key="qs_tile_animation_style"
+            android:icon="@drawable/ic_qs_tile_animation_style"
+            android:title="@string/qs_tile_animation_style_title"
+            android:entries="@array/qs_tile_animation_style_entries"
+            android:entryValues="@array/qs_tile_animation_style_values"
+            android:defaultValue="0" />
+
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_tile_animation_duration"
+            android:icon="@drawable/ic_clock"
+            android:title="@string/qs_tile_animation_duration_title"
+            android:defaultValue="1"
+            settings:interval="1"
+            settings:units="@string/unit_seconds"
+            android:max="5"
+            android:min="1" />
+
+        <com.crdroid.settings.preferences.SystemSettingListPreference
+            android:key="qs_tile_animation_interpolator"
+            android:icon="@drawable/ic_qs_tile_animation_interpolator"
+            android:title="@string/qs_tile_animation_interpolator_title"
+            android:entries="@array/qs_tile_animation_interpolator_entries"
+            android:entryValues="@array/qs_tile_animation_interpolator_values"
+            android:defaultValue="0" />
+
     </PreferenceCategory>
 
     <PreferenceCategory 
          android:title="@string/qs_footer_category">
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_footer_data_usage"
+            android:icon="@drawable/ic_swap_vertical"
+            android:title="@string/qs_footer_datausage_title"
+            android:summary="@string/qs_footer_datausage_summary" />
 
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="qs_footer_warnings"

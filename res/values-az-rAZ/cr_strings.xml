@@ -37,7 +37,7 @@
     <string name="hex">Hex:</string>
     <string name="hex_hint">#ff000000</string>
     <string name="set">Təyin et</string>
-    <string name="color_default">Default</string>
+    <string name="color_default">Defolt</string>
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Sıfırla</string>
@@ -50,8 +50,8 @@
     <string name="delete">Sil</string>
     <string name="delete_message">Seçilmiş element silinsin?</string>
     <string name="choose_app">Tətbiqi seçin</string>
-    <string name="enable">Enable</string>
-    <string name="disable">Disable</string>
+    <string name="enable">Aktiv</string>
+    <string name="disable">Deaktiv</string>
     <!-- Changelog -->
     <string name="changelog_crdroid_title">İndiki dəyişikliklər</string>
     <string name="changelog_crdroid_summary">ROM qurulduqdakı dəyişiklikləri göstər</string>
@@ -190,18 +190,18 @@
     <string name="volume_answer_call_title">Zəngə cavab ver</string>
     <string name="volume_answer_call_summary">Gələn zəngləri səs düymələrini basaraq cavabla</string>
     <!-- Key backlight -->
-    <string name="button_backlight_title">Backlight</string>
-    <string name="button_backlight_summary">Customize button backlight settings</string>
-    <string name="button_backlight_enabled">Illuminate buttons</string>
-    <string name="button_backlight_only_when_pressed_title">Illuminate buttons only when pressed</string>
-    <string name="keyboard_backlight_enabled">Illuminate keyboard</string>
-    <string name="button_backlight_seekbar_title">Button brightness</string>
-    <string name="keyboard_backlight_seekbar_title">Keyboard brightness</string>
-    <string name="backlight_timeout_title">Illumination timeout</string>
-    <string name="backlight_timeout_unlimited">Don\'t turn off</string>
-    <string name="backlight_summary_disabled">Disabled</string>
-    <string name="backlight_summary_enabled_with_timeout">Enabled for <xliff:g id="timeout">%s</xliff:g></string>
-    <string name="backlight_summary_enabled">Enabled</string>
+    <string name="button_backlight_title">Düymə işığı</string>
+    <string name="button_backlight_summary">Düymə işığını tənzimlə</string>
+    <string name="button_backlight_enabled">Düymələri işıqlandır</string>
+    <string name="button_backlight_only_when_pressed_title">Düymələri yalnız basılarkən işıqlandır</string>
+    <string name="keyboard_backlight_enabled">Klaviaturanı işıqlandır</string>
+    <string name="button_backlight_seekbar_title">Düymə işığı parlaqlığı</string>
+    <string name="keyboard_backlight_seekbar_title">Klaviatura işığı parlaqlığı</string>
+    <string name="backlight_timeout_title">İşıqlandırma müddəti</string>
+    <string name="backlight_timeout_unlimited">Söndürmə</string>
+    <string name="backlight_summary_disabled">Deaktiv</string>
+    <string name="backlight_summary_enabled_with_timeout"><xliff:g id="timeout">%s</xliff:g> üçün aktivdir</string>
+    <string name="backlight_summary_enabled">Aktiv</string>
     <!-- Power menu -->
     <string name="power_menu_title">Güc menyusu</string>
     <string name="power_menu_summary">Güc menyusunu fərdiləşdirin</string>
@@ -219,7 +219,7 @@
     <string name="power_menu_users_title">İstifadəçilər</string>
     <string name="power_menu_logout_title">Çıxış</string>
     <string name="power_menu_emergency_title">Fövqəladə</string>
-    <string name="power_menu_devicecontrols_title">Device controls</string>
+    <string name="power_menu_devicecontrols_title">Cihaz nizamlayıcıları</string>
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Qabaqcıl yenidən başlatma</string>
     <string name="advanced_reboot_summary">Kilidi açılanda, bərpa və ya yükləmə rejimində yenidən başlamaq üçün güc menyusuna seçimlər daxil edin</string>
@@ -266,12 +266,12 @@
     <string name="pulse_ambient_light_duration_summary">Ortam ekranının animasiya müddətini təyin edin</string>
     <string name="pulse_ambient_light_layout_title">Kənar aydınlatma görünüşü</string>
     <string name="pulse_ambient_light_layout_solid">Bərk</string>
-    <string name="pulse_ambient_light_layout_faded">Faded</string>
+    <string name="pulse_ambient_light_layout_faded">Solma</string>
     <!-- Ambient Ticker -->
-    <string name="pulse_on_new_tracks_title">Music ticker</string>
-    <string name="pulse_on_new_tracks_summary">Show music ticker on Ambient Display during track change</string>
+    <string name="pulse_on_new_tracks_title">Musiqi qeydi</string>
+    <string name="pulse_on_new_tracks_summary">Musiqi dəyişərkən Ortam ekranında musiqi adını göstər</string>
     <!-- Status bar - icon blocklist -->
-    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_icons_title">Status çubuğu ikonları</string>
     <string name="status_bar_icons_summary">Choose which status bar icons can be shown</string>
     <!-- Bluetooth status -->
     <string name="bluetooth_battery_title">Bluetooth battery status</string>
@@ -588,6 +588,7 @@
     <!-- Battery light settings -->
     <string name="light_brightness_category">Light brightness settings</string>
     <string name="battery_light_title">Battery light</string>
+    <string name="battery_light_enable_title">Enable battery light</string>
     <string name="battery_light_summary">Configure led color based on battery level and status</string>
     <string name="battery_low_pulse_title">Pulse if battery low</string>
     <string name="battery_light_full_charge_disabled_title">Turn off when fully charged</string>
@@ -598,6 +599,7 @@
     <string name="battery_light_really_full_color_title">Fully Charged (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Notification light</string>
+    <string name="notification_light_enable_title">Enable notification light</string>
     <string name="notification_light_summary">Configure led color for notifications</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_advanced_title">Advanced</string>
@@ -615,7 +617,7 @@
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Light settings</string>
     <string name="led_notification_text">LED light enabled by settings</string>
-    <string name="notification_light_no_apps_summary">To add per app control, activate \'%1$s\' and press \'\u002b\' on the menu bar</string>
+    <string name="notification_light_add_apps_empty_summary">To add per app control, activate \'%1$s\' and press \'Add\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Heads up</string>
     <string name="notification_heads_up_summary">Allow pop up notifications</string>
@@ -652,9 +654,6 @@
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Game space</string>
     <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
-    <!-- Lockscreen Clock -->
-    <string name="lockscreen_small_clock_title">Small clock</string>
-    <string name="lockscreen_small_clock_summary">Force small clock on lockscreen even if notifications are absent</string>
     <!-- Navbar Animation -->
     <string name="pixel_navbar_anim_title">Pixel animation</string>
     <string name="pixel_navbar_anim_summary">Enable pixel style animation for 2-button / 3-button navigation bar</string>
@@ -874,4 +873,30 @@
     <string name="battery_charge_cycles">Charge cycles completed</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Battery temperature</string>
+    <!-- QS Transparency -->
+    <string name="qs_transparency_title">Background transparency</string>
+    <string name="qs_transparency_summary">Set transparency level for QS background</string>
+    <!-- Data usage info in QS footer -->
+    <string name="qs_footer_datausage_title">Data usage</string>
+    <string name="qs_footer_datausage_summary">Display data usage summary in quick settings footer</string>
+    <!-- QS Tiles animation  -->
+    <string name="qs_tile_animation_title">Tiles animation</string>
+    <string name="qs_tile_animation_style_title">Animation style</string>
+    <string name="qs_tile_animation_duration_title">Animation duration</string>
+    <string name="qs_tile_animation_interpolator_title">Animation interpolator</string>
+    <string name="qs_tile_animation_style_off">No animation</string>
+    <string name="qs_tile_animation_style_rotate">Rotate</string>
+    <string name="qs_tile_animation_style_flipx">Flip X</string>
+    <string name="qs_tile_animation_style_flipy">Flip Y</string>
+    <string name="qs_tile_animation_interpolator_linearInterpolator">Linear</string>
+    <string name="qs_tile_animation_interpolator_accelerateInterpolator">Accelerate</string>
+    <string name="qs_tile_animation_interpolator_decelerateInterpolator">Decelerate</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Accelerate decelerate</string>
+    <string name="qs_tile_animation_interpolator_bounceInterpolator">Bounce</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
+    <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    <!-- Screenshot shutter sound  -->
+    <string name="screenshot_shutter_sound_title">Screenshot sound</string>
+    <string name="screenshot_shutter_sound_summary">Play sound when screenshot is taken</string>
 </resources>
