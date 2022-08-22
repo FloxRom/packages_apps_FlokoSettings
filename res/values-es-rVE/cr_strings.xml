@@ -589,7 +589,7 @@ Mantén presionado para establecer</string>
     <!-- Battery light settings -->
     <string name="light_brightness_category">Configuración del brillo del led de notificación</string>
     <string name="battery_light_title">Led de batería</string>
-    <string name="battery_light_enable_title">Activar luz de batería</string>
+    <string name="battery_light_enable_title">Habilitar LED de batería</string>
     <string name="battery_light_summary">Configurar el color del led basado en el nivel y estado de la batería</string>
     <string name="battery_low_pulse_title">Parpadear con batería baja</string>
     <string name="battery_light_full_charge_disabled_title">Apagar cuando la batería esté completamente cargada</string>
@@ -600,7 +600,7 @@ Mantén presionado para establecer</string>
     <string name="battery_light_really_full_color_title">Completamente cargado (100%)</string>
     <!-- Lights settings screen, notification light settings -->
     <string name="notification_light_title">Indicador de notificaciones</string>
-    <string name="notification_light_enable_title">Activar luz de notificación</string>
+    <string name="notification_light_enable_title">Habilitar LED de notificaciones</string>
     <string name="notification_light_summary">Configurar color del led para las notificaciones</string>
     <string name="notification_light_general_title">General</string>
     <string name="notification_light_advanced_title">Avanzado</string>
@@ -618,7 +618,7 @@ Mantén presionado para establecer</string>
     <!-- Lights settings, LED notification -->
     <string name="led_notification_title">Ajustes de led</string>
     <string name="led_notification_text">Luz led activada para los ajustes</string>
-    <string name="notification_light_add_apps_empty_summary">Para añadir control por aplicación, activa \'%1$s\' y pulsa \'Añadir\'</string>
+    <string name="notification_light_add_apps_empty_summary">Para añadir control por aplicación, activar \'%1$s\' y pulsar \'Añadir\'</string>
     <!-- Heads up timeout -->
     <string name="notification_heads_up_title">Notificaciones</string>
     <string name="notification_heads_up_summary">Permitir notificaciones emergentes</string>
@@ -670,8 +670,8 @@ Mantén presionado para establecer</string>
     <string name="screen_off_animation_crt">CRT</string>
     <string name="screen_off_animation_scale">Escala</string>
     <!-- Custom Vibration fragment -->
-    <string name="vibration_intensity_preferences">Intensidad de la vibración</string>
-    <string name="summary_vibration_intensity_preferences">Cambiar intensidad de la vibración</string>
+    <string name="vibration_intensity_preferences">Intensidad de vibración</string>
+    <string name="summary_vibration_intensity_preferences">Cambiar intensidad de vibración</string>
     <string name="keywords_vibration_preferences">patrón, intensidad, respuesta háptica, fuerza de vibración</string>
     <string name="ringtone_vibration_pattern">Patrón de vibración de tono de llamada</string>
     <string name="vibration_intensity_ringer">Intensidad de vibración de tono de llamada</string>
@@ -784,16 +784,16 @@ Mantén presionado para establecer</string>
     <string name="notification_guts_kill_app_button_summary">Mostrar botón de forzar cierre de la aplicación en el menú de notificaciones al mantenerla presionada</string>
     <!-- Screen off UDFPS -->
     <string name="screen_off_udfps_title">UDFPS con pantalla apagada</string>
-    <string name="screen_off_udfps_summary">Mantener el sensor de huellas en pantalla encendido cuando la pantalla está apagada</string>
+    <string name="screen_off_udfps_summary">Mantener UDFPS activado cuando la pantalla esté apagada</string>
     <!-- Columbus -->
-    <string name="columbus_gesture_detected">¡Toque rápido detectado!</string>
+    <string name="columbus_gesture_detected">¡Quick Tap detectado!</string>
     <string name="columbus_gesture_enrollment_complete">Listo</string>
     <string name="columbus_gesture_enrollment_do_it_later">Ahora no</string>
-    <string name="columbus_gesture_enrollment_settings">Ir a ajustes</string>
-    <string name="columbus_gesture_enrollment_try_it">Inténtalo</string>
+    <string name="columbus_gesture_enrollment_settings">Ir a Ajustes</string>
+    <string name="columbus_gesture_enrollment_try_it">Pruébelo</string>
     <string name="columbus_gesture_training_action_no_selection_error">Por favor seleccione una acción para realizar</string>
-    <string name="columbus_gesture_training_action_text">Selecciona que pasa cuando usas el toque rápido. Puedes cambiarlo luego en los ajustes.</string>
-    <string name="columbus_gesture_training_action_title">Elija la opción de toque rápido</string>
+    <string name="columbus_gesture_training_action_text">Seleccione lo que sucede cuando utilice Quick Tap. Puede cambiar esto más tarde en los ajustes.</string>
+    <string name="columbus_gesture_training_action_title">Elija la opción de Quick Tap</string>
     <string name="columbus_gesture_training_enrolling_first_gesture">Toques rápidos detectados: 1 de 2</string>
     <string name="columbus_gesture_training_enrolling_first_gesture_text">Inténtalo de nuevo; toque rápidamente la parte trasera de tu teléfono dos veces.</string>
     <string name="columbus_gesture_training_enrolling_first_gesture_title">¡Bien!</string>
@@ -802,19 +802,19 @@ Mantén presionado para establecer</string>
     <string name="columbus_gesture_training_enrolling_second_gesture_title">¡Lo tienes!</string>
     <string name="columbus_gesture_training_enrolling_text">Toca rápidamente la parte trasera de tu teléfono dos veces.</string>
     <string name="columbus_gesture_training_enrolling_title">Prueba Quick Tap</string>
-    <string name="columbus_gesture_training_finished_text">Para cambiar la intensidad del doble toque trasero, ve a ajustes.</string>
-    <string name="columbus_gesture_training_finished_title">Has configurado doble toque</string>
+    <string name="columbus_gesture_training_finished_text">Para cambiar la intensidad del doble toque de Quick Tap, ve a ajustes.</string>
+    <string name="columbus_gesture_training_finished_title">Has configurado Quick Tap</string>
     <string name="columbus_gesture_training_intro_text_accidental">Acabas de tocar dos veces en la parte posterior de tu dispositivo, lo que te permite usar tu asistente. Puede personalizar este gesto en ajustes.</string>
     <string name="columbus_gesture_training_intro_text_suw">Realiza una captura, muestra las notificaciones o abre una aplicación con dos toques.</string>
-    <string name="columbus_gesture_training_intro_title">Doble toque trasero para acciones rápidas</string>
+    <string name="columbus_gesture_training_intro_title">Quick Tap para acciones rápidas</string>
     <string name="columbus_gesture_training_launch_no_selection_error">Seleccione una app para abrir</string>
-    <string name="columbus_gesture_training_launch_text">Selecciona la app que deseas abrir con el doble toque trasero.</string>
+    <string name="columbus_gesture_training_launch_text">Selecciona la app que deseas abrir con Quick Tap.</string>
     <string name="columbus_gesture_training_launch_title">Elija una app para abrir</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s ajustes de los atajos</string>
-    <string name="columbus_launch_settings_activity_title">Ajustes de toque rápido</string>
-    <string name="columbus_name">Toque rápido</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">Ajustes del acceso directo %1$s</string>
+    <string name="columbus_launch_settings_activity_title">Ajustes de Quick Tap</string>
+    <string name="columbus_name">Quick Tap</string>
     <string name="columbus_radio_button_extra_widget_a11y_label">%1$s ajustes</string>
-    <string name="columbus_setting_action_assistant_title">Iniciar asistente</string>
+    <string name="columbus_setting_action_assistant_title">Accede a tu asistente digital</string>
     <string name="columbus_setting_action_launch_summary_no_selection">Ninguna aplicación seleccionada</string>
     <string name="columbus_setting_action_launch_summary_not_installed">Aplicación no instalada</string>
     <string name="columbus_setting_action_launch_title">Abrir aplicación</string>
@@ -823,12 +823,12 @@ Mantén presionado para establecer</string>
     <string name="columbus_setting_action_overview_title">Ver aplicaciones recientes</string>
     <string name="columbus_setting_action_play_pause_title">Reproducir o pausar multimedia</string>
     <string name="columbus_setting_action_screenshot_title">Tomar captura de pantalla</string>
-    <string name="columbus_setting_actions_title">Topa la parte trasera dos veces para</string>
-    <string name="columbus_setting_additional_settings_title">Intensidad del doble toque</string>
-    <string name="columbus_setting_app_selection_help_text">Selecciona una app para abrir con el doble toque en la parte trasera. Si desinstalar dicha app, el doble toque se desactivará hasta que selecciones otra app para abrir.</string>
-    <string name="columbus_setting_app_shortcut_selection_help_text">Selecciona que pasa cuando abres esta app usando Quick Tap.</string>
-    <string name="columbus_setting_enable_switch_title">Usar doble toque</string>
-    <string name="columbus_setting_sensitivity_title">Requerir toques más fuertes</string>
+    <string name="columbus_setting_actions_title">Tocar atrás del teléfono dos veces para</string>
+    <string name="columbus_setting_additional_settings_title">Intensidad de Quick Tap</string>
+    <string name="columbus_setting_app_selection_help_text">Seleccione una aplicación para abrir cuando toque la parte trasera de su teléfono dos veces. Si desinstala la aplicación, Quick Tap se desactiva hasta que seleccione una aplicación diferente.</string>
+    <string name="columbus_setting_app_shortcut_selection_help_text">Seleccione lo que sucede cuando abra esta aplicación usando Quick Tap.</string>
+    <string name="columbus_setting_enable_switch_title">Usar Quick Tap</string>
+    <string name="columbus_setting_sensitivity_title">Requiere toques más fuertes</string>
     <!-- Game -->
     <string name="game_dashboard_always_on_summary">Mostrar atajo del modo juego en los juegos</string>
     <string name="game_dashboard_always_on_title">Modo de juegos</string>
@@ -841,26 +841,23 @@ Mantén presionado para establecer</string>
     <string name="reticker_colored_title">Usar fondo de app coloreado</string>
     <string name="reticker_colored_summary">Reemplazar el color de fondo del reTicker usando el color principal de la aplicación que notifica</string>
     <!-- Smart Pixels -->
-    <string name="smart_pixels_warning_text">Los píxeles inteligentes son una opción de ahorro de batería para pantallas AMOLED. Dependiendo de cuantos pixeles apagues, tal vez veas mejoras en la duración de la batería. Ten en cuenta que en algunos casos puede no detectar bien los toques en la pantalla</string>
-    <string name="smart_pixels_title">Píxeles inteligentes</string>
+    <string name="smart_pixels_warning_text">Smart pixels es una característica de ahorro de energía. Dependiendo de cuántos píxeles decidas desactivar, podrías ver mejoras en la vida útil de la batería. Ten en cuenta que en algunos casos puede resultar en zonas no receptivas en la pantalla táctil</string>
+    <string name="smart_pixels_title">Píxeles Inteligentes</string>
     <string name="smart_pixels_summary">Ahorrar batería apagando píxeles adicionales</string>
-    <string name="smart_pixels_enable_title">Activar píxeles inteligentes</string>
+    <string name="smart_pixels_enable_title">Habilitar Píxeles Inteligentes</string>
     <string name="smart_pixels_enable_summary">Apagar píxeles para reducir el consumo de energía</string>
-    <string name="smart_pixels_on_power_save_title">Activar automáticamente con el ahorro de batería</string>
-    <string name="smart_pixels_on_power_save_summary">Activar píxeles inteligentes cuando el ahorro de batería esté activado</string>
+    <string name="smart_pixels_on_power_save_title">Activar automáticamente en modo ahorro de batería</string>
+    <string name="smart_pixels_on_power_save_summary">Habilitar Píxeles Inteligentes cuando el ahorro de batería esté habilitado</string>
     <string name="smart_pixels_percent">Porcentaje de píxeles a desactivar</string>
-    <string name="smart_pixels_shift_title">Protección antiquemado</string>
-    <string name="smart_pixels_shift_summary">Previene el quemado en pantallas OLED alternando píxeles</string>
-    <!-- Fingerprint wake and unlock -->
-    <string name="fp_wake_unlock_title">Despertar y desbloquear con la huella dactilar</string>
-    <string name="fp_wake_unlock_summary">Detectar la huella dactilar con la pantalla apagada</string>
+    <string name="smart_pixels_shift_title">Protección contra quemado</string>
+    <string name="smart_pixels_shift_summary">Previene el quemado de la pantalla en dispositivos con tecnología OLED alternando píxeles de vez en cuando</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">Usar tema oscuro</string>
     <string name="system_black_theme_summary">Forzar colores de fondo oscuros</string>
     <!-- Material dismiss all button for notifications -->
-    <string name="notification_material_dismiss_title">Botón de borrar todo</string>
-    <string name="notification_material_dismiss_summary">Reemplazar el botón con el texto de borrar notificaciones con un botón flotante</string>
-    <string name="notification_material_dismiss_style_title">Estilo del botón</string>
+    <string name="notification_material_dismiss_title">Botón de borrar todas las notificaciones</string>
+    <string name="notification_material_dismiss_summary">Reemplazar el texto de borrar notificaciones con un botón flotante con estio material</string>
+    <string name="notification_material_dismiss_style_title">Estilo de botón</string>
     <string name="notification_material_dismiss_bgstyle_title">Fondo del botón</string>
     <!-- Back gesture animation -->
     <string name="back_gesture_arrow_title">Animación del gesto atrás</string>
@@ -870,34 +867,34 @@ Mantén presionado para establecer</string>
     <string name="back_gesture_haptic_summary">Vibrar al realizar el gesto de retroceder</string>
     <!-- Battery health -->
     <string name="current_battery_capacity">Capacidad actual de la batería</string>
-    <string name="designed_battery_capacity">Capacidad original de la batería</string>
+    <string name="designed_battery_capacity">Capacidad diseñada de la batería</string>
     <string name="battery_charge_cycles">Ciclos de carga completados</string>
     <!-- Battery temperature -->
     <string name="battery_temperature">Temperatura de la batería</string>
     <!-- QS Transparency -->
-    <string name="qs_transparency_title">Fondo transparente</string>
+    <string name="qs_transparency_title">Transparencia del fondo</string>
     <string name="qs_transparency_summary">Establecer el nivel de transparencia para el fondo de los ajustes rápidos</string>
     <!-- Data usage info in QS footer -->
-    <string name="qs_footer_datausage_title">Consumo de datos</string>
+    <string name="qs_footer_datausage_title">Uso de datos</string>
     <string name="qs_footer_datausage_summary">Resumen de uso de datos al pie del panel de los ajustes rápidos</string>
     <!-- QS Tiles animation  -->
     <string name="qs_tile_animation_title">Animación de los ajustes rápidos</string>
     <string name="qs_tile_animation_style_title">Estilo de la animación</string>
     <string name="qs_tile_animation_duration_title">Duración de la animación</string>
     <string name="qs_tile_animation_interpolator_title">Interpolador de la animación</string>
-    <string name="qs_tile_animation_style_off">Sin animación</string>
-    <string name="qs_tile_animation_style_rotate">Girar</string>
+    <string name="qs_tile_animation_style_off">Sin animaciones</string>
+    <string name="qs_tile_animation_style_rotate">Rotación</string>
     <string name="qs_tile_animation_style_flipx">Invertir X</string>
     <string name="qs_tile_animation_style_flipy">Invertir Y</string>
     <string name="qs_tile_animation_interpolator_linearInterpolator">Lineal</string>
     <string name="qs_tile_animation_interpolator_accelerateInterpolator">Acelerar</string>
     <string name="qs_tile_animation_interpolator_decelerateInterpolator">Desacelerar</string>
-    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar y desacelerar</string>
+    <string name="qs_tile_animation_interpolator_accelerateDecelerateInterpolator">Acelerar/Desacelerar</string>
     <string name="qs_tile_animation_interpolator_bounceInterpolator">Rebotar</string>
-    <string name="qs_tile_animation_interpolator_overshootInterpolator">Excederse</string>
+    <string name="qs_tile_animation_interpolator_overshootInterpolator">Superar</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipar</string>
-    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipar y excederse</string>
+    <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Prevenir exceso</string>
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Sonido de captura de pantalla</string>
-    <string name="screenshot_shutter_sound_summary">Reproducir un sonido cuando se haga una captura</string>
+    <string name="screenshot_shutter_sound_summary">Reproducir sonido cuando se haga una captura de pantalla</string>
 </resources>

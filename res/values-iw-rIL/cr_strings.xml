@@ -809,7 +809,7 @@
     <string name="columbus_gesture_training_launch_no_selection_error">בבקשה בחר אפליקציה לפתיחה</string>
     <string name="columbus_gesture_training_launch_text">בחר את האפליקציה שתעשה להשתמש עם לחיצה מהירה.</string>
     <string name="columbus_gesture_training_launch_title">בחר אפליקציה לפתוח</string>
-    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s shortcut settings</string>
+    <string name="columbus_launch_app_extra_widget_a11y_label">%1$s הגדרות קיצורי דרך</string>
     <string name="columbus_launch_settings_activity_title">הגדרות לחיצה מהירה</string>
     <string name="columbus_name">לחיצה מהירה</string>
     <string name="columbus_radio_button_extra_widget_a11y_label">הגדרות%1$s</string>
@@ -850,9 +850,6 @@
     <string name="smart_pixels_percent">אחוז הפיקסלים שיושבתו</string>
     <string name="smart_pixels_shift_title">הגנה מצריבות מסך</string>
     <string name="smart_pixels_shift_summary">מניעת צריבות מסך במסכי OLED ע\"י הזזת פיקסלים תכופה</string>
-    <!-- Fingerprint wake and unlock -->
-    <string name="fp_wake_unlock_title">התעוררות ופתיחת נעילה בטביעת אצבע</string>
-    <string name="fp_wake_unlock_summary">קשב לטביעת אצבע כאשר המסך כבוי</string>
     <!-- Black theme -->
     <string name="system_black_theme_title">שימוש בערכת נושא שחורה</string>
     <string name="system_black_theme_summary">כפיית צבעי רקע שחורים</string>
