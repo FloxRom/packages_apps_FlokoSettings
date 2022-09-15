@@ -32,6 +32,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settingslib.search.SearchIndexable;
 
+import com.crdroid.settings.fragments.misc.SmartCharging;
+
 import java.util.List;
 import java.util.ArrayList;
 
@@ -42,8 +44,10 @@ public class Miscellaneous extends SettingsPreferenceFragment {
 
     public static final String TAG = "Miscellaneous";
 
+    private static final String SMART_CHARGING = "smart_charging";
     private static final String POCKET_JUDGE = "pocket_judge";
 
+    private Preference mSmartCharging;
     private Preference mPocketJudge;
 
     @Override
@@ -54,6 +58,12 @@ public class Miscellaneous extends SettingsPreferenceFragment {
 
         final PreferenceScreen prefScreen = getPreferenceScreen();
         final Resources res = getResources();
+
+        mSmartCharging = (Preference) prefScreen.findPreference(SMART_CHARGING);
+        boolean mSmartChargingSupported = res.getBoolean(
+                com.android.internal.R.bool.config_smartChargingAvailable);
+        if (!mSmartChargingSupported)
+            prefScreen.removePreference(mSmartCharging);
 
         mPocketJudge = (Preference) prefScreen.findPreference(POCKET_JUDGE);
         boolean mPocketJudgeSupported = res.getBoolean(
@@ -70,6 +80,7 @@ public class Miscellaneous extends SettingsPreferenceFragment {
                 Settings.System.THREE_FINGER_GESTURE, 0, UserHandle.USER_CURRENT);
         LineageSettings.System.putIntForUser(resolver,
                 LineageSettings.System.AUTO_BRIGHTNESS_ONE_SHOT, 0, UserHandle.USER_CURRENT);
+        SmartCharging.reset(mContext);
     }
 
     @Override
@@ -87,6 +98,11 @@ public class Miscellaneous extends SettingsPreferenceFragment {
                 public List<String> getNonIndexableKeys(Context context) {
                     List<String> keys = super.getNonIndexableKeys(context);
                     final Resources res = context.getResources();
+
+                    boolean mSmartChargingSupported = res.getBoolean(
+                            com.android.internal.R.bool.config_smartChargingAvailable);
+                    if (!mSmartChargingSupported)
+                        keys.add(SMART_CHARGING);
 
                     boolean mPocketJudgeSupported = res.getBoolean(
                             com.android.internal.R.bool.config_pocketModeSupported);

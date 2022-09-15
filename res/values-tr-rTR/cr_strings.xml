@@ -356,6 +356,7 @@
     <string name="clock_date_position">Tarih konumu</string>
     <string name="clock_date_right">Saatin sağında</string>
     <string name="clock_date_left">Saatin solunda</string>
+    <string name="clock_font_size_title">Saat yazı tipi boyutu</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Pil stili</string>
     <string name="status_bar_battery_style_icon_portrait">Dikey simge</string>
@@ -896,4 +897,25 @@
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Ekran görüntüsü sesi</string>
     <string name="screenshot_shutter_sound_summary">Ekran görüntüsü alınırken ses çıkar</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Kare düzeni</string>
+    <string name="qs_tile_label_hide_title">Etiketleri gizle</string>
+    <string name="qs_tile_label_size_title">Etiket metni boyutu</string>
+    <string name="qs_tile_label_hide_summary">Karede yalnızca simgeyi göster</string>
+    <string name="qs_tile_layout_title">Dikey düzen</string>
+    <string name="qs_tile_layout_summary">Simgenin yanında etiketi simgenin altında göster</string>
+    <string name="qs_columns_portrait_title">Sütunlar (dikey)</string>
+    <string name="qs_columns_landscape_title">Sütunlar (yatay)</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Arka plan çipi</string>
+    <string name="statusbar_clock_chip_summary">Aksanlı çipi saatin arkasında göster</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Akıllı şarj</string>
+    <string name="smart_charging_summary">Maksimum şarj seviyesi ayarlayın</string>
+    <string name="smart_charging_switch_title">Akıllı şarjı etkinleştir</string>
+    <string name="smart_charging_level_title">Durdurma seviyesi</string>
+    <string name="smart_charging_resume_level_title">Başlatma seviyesi</string>
+    <string name="smart_charging_reset_stats_title">Pil istatistiklerini sıfırla</string>
+    <string name="smart_charging_reset_stats_summary">Kullanıcının tanımladığı şarj değerine ulaşınca pil istatistiklerini sıfırlayın</string>
+    <string name="smart_charging_footer">Akıllı şarj etme size maksimum şarj etme düzeyini belirlemenizi ve pilinizin ömrünü uzatmanızı sağlar. Aktif edildiği zaman, pil durma noktasına ulaştığında şarj olmayı durdurur ve başlama noktasına gelince şarj olmaya devam eder. Durma noktası her zaman başlama noktasından büyük olmalıdır.</string>
 </resources>

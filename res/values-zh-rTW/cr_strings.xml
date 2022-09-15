@@ -356,6 +356,7 @@
     <string name="clock_date_position">日期位置</string>
     <string name="clock_date_right">位於時間右側</string>
     <string name="clock_date_left">位於時間左側</string>
+    <string name="clock_font_size_title">時鐘字體大小</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">電池圖示樣式</string>
     <string name="status_bar_battery_style_icon_portrait">直式圖示</string>
@@ -896,4 +897,25 @@
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">螢幕截圖音效</string>
     <string name="screenshot_shutter_sound_summary">在拍攝螢幕截圖時播放音效</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">快速設定圖塊佈局</string>
+    <string name="qs_tile_label_hide_title">隱藏標題</string>
+    <string name="qs_tile_label_size_title">標題字體大小</string>
+    <string name="qs_tile_label_hide_summary">圖塊中只顯示圖示</string>
+    <string name="qs_tile_layout_title">垂直顯示</string>
+    <string name="qs_tile_layout_summary">在圖示下方顯示標題</string>
+    <string name="qs_columns_portrait_title">列（垂直）</string>
+    <string name="qs_columns_landscape_title">列（橫向）</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">時鐘背景</string>
+    <string name="statusbar_clock_chip_summary">在時鐘後方顯示背景</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">智慧充電</string>
+    <string name="smart_charging_summary">設定最大充電電量</string>
+    <string name="smart_charging_switch_title">啟用智慧充電</string>
+    <string name="smart_charging_level_title">停止充電電量</string>
+    <string name="smart_charging_resume_level_title">開始充電電量</string>
+    <string name="smart_charging_reset_stats_title">重設電池統計數據</string>
+    <string name="smart_charging_reset_stats_summary">在達到使用者設定的電量後，重設電池統計數據</string>
+    <string name="smart_charging_footer">智慧充電可以透過限制最大充電量來達到延長電池壽命的效果。啟用時，會在達到「停止充電電量」後暫停充電；在降至「開始充電電量」後繼續。「停止充電電量」應始終大於「開始充電電量」。</string>
 </resources>

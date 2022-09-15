@@ -30,6 +30,17 @@
             android:summary="@string/qs_clock_summary"
             android:defaultValue="true" />
 
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_header_clock_size"
+            android:icon="@drawable/ic_font"
+            android:title="@string/clock_font_size_title"
+            android:max="27"
+            settings:min="10"
+            settings:interval="1"
+            android:defaultValue="14"
+            android:dependency="show_qs_clock"
+            settings:units="@string/unit_pixels" />
+
         <!-- QS date -->
         <com.crdroid.settings.preferences.SystemSettingSwitchPreference
             android:key="show_qs_date"
@@ -112,6 +123,54 @@
             settings:units="%"
             android:max="100"
             android:min="1" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="qs_layout_category"
+        android:title="@string/qs_layout_category_title">
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_label_hide"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_label_hide_title"
+            android:summary="@string/qs_tile_label_hide_summary"
+            android:defaultValue="false" />
+
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_tile_label_size"
+            android:icon="@drawable/ic_text"
+            android:title="@string/qs_tile_label_size_title"
+            android:max="15"
+            settings:min="10"
+            settings:interval="1"
+            settings:units="sp"
+            android:defaultValue="14" />
+
+        <com.crdroid.settings.preferences.SystemSettingSwitchPreference
+            android:key="qs_tile_vertical_layout"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_tile_layout_title"
+            android:summary="@string/qs_tile_layout_summary"
+            android:defaultValue="false" />
+
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_columns_portrait_title"
+            android:max="5"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="2" />
+
+        <com.crdroid.settings.preferences.SystemSettingSeekBarPreference
+            android:key="qs_layout_columns_landscape"
+            android:icon="@drawable/ic_qs_tile"
+            android:title="@string/qs_columns_landscape_title"
+            android:max="6"
+            settings:min="2"
+            settings:interval="1"
+            android:defaultValue="4" />
 
     </PreferenceCategory>
 

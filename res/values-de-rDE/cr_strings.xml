@@ -19,7 +19,7 @@
     <string name="crdroid_settings_title">crDroid-Einstellungen</string>
     <string name="crdroid_settings_summary">Erweiterte Einstellungen öffnen</string>
     <string name="reset_settings_title">Einstellungen zurücksetzen</string>
-    <string name="reset_settings_message">Dadurch werden die meisten CrDroid-Einstellungen für den aktuellen Nutzer auf die Werkseinstellungen zurückgesetzt. Fortfahren?</string>
+    <string name="reset_settings_message">Dadurch werden die meisten crDroid-Einstellungen für den aktuellen Nutzer auf die Werkseinstellungen zurückgesetzt. Fortfahren?</string>
     <!-- Personalization Categories -->
     <string name="button_title">Tasten</string>
     <string name="lockscreen_title">Sperrbildschirm</string>
@@ -356,6 +356,7 @@
     <string name="clock_date_position">Anzeigeort des Datums</string>
     <string name="clock_date_right">Rechts neben der Uhr</string>
     <string name="clock_date_left">Links neben der Uhr</string>
+    <string name="clock_font_size_title">Schriftgröße der Uhr</string>
     <!-- Status bar - Battery -->
     <string name="status_bar_battery_style_title">Akkudarstellung</string>
     <string name="status_bar_battery_style_icon_portrait">Symbol (Hochformat)</string>
@@ -896,4 +897,25 @@
     <!-- Screenshot shutter sound  -->
     <string name="screenshot_shutter_sound_title">Ton bei Screenshot</string>
     <string name="screenshot_shutter_sound_summary">Ton abspielen, wenn ein Screenshot aufgenommen wird</string>
+    <!-- QS tiles layout  -->
+    <string name="qs_layout_category_title">Kachelanordnung</string>
+    <string name="qs_tile_label_hide_title">Überschrift verbergen</string>
+    <string name="qs_tile_label_size_title">Beschriftungsgröße</string>
+    <string name="qs_tile_label_hide_summary">Nur Symbol in Kachel anzeigen</string>
+    <string name="qs_tile_layout_title">Vertikale Anordnung</string>
+    <string name="qs_tile_layout_summary">Beschriftung unter Symbol statt neben Symbol anzeigen</string>
+    <string name="qs_columns_portrait_title">Spalten (Hochformat)</string>
+    <string name="qs_columns_landscape_title">Spalten (Querformat)</string>
+    <!-- Statusbar Clock background chip -->
+    <string name="statusbar_clock_chip_title">Hintergrundunschärfe</string>
+    <string name="statusbar_clock_chip_summary">Akzentuierter Chip hinter der Uhr anzeigen</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Intelligentes Laden</string>
+    <string name="smart_charging_summary">Maximales Ladelevel festlegen</string>
+    <string name="smart_charging_switch_title">Intelligentes Laden aktivieren</string>
+    <string name="smart_charging_level_title">Intelligentes Laden stoppt bei</string>
+    <string name="smart_charging_resume_level_title">Intelligentes Laden startet bei</string>
+    <string name="smart_charging_reset_stats_title">Akkustatistiken zurücksetzen</string>
+    <string name="smart_charging_reset_stats_summary">Akkustatistiken nach Erreichen des benutzerdefinierten Ladestands zurücksetzen</string>
+    <string name="smart_charging_footer">Intelligentes Laden erlaubt das Festlegen eines maximalen Ladezustands, um die Lebensdauer des Akku zu erhöhen. Wenn es aktiviert ist, hört der Akku beim festgelegten Stopp-Level auf zu laden und fährt beim Start-Level fort. Das Stopp-Level muss höher sein als das Start-Level.</string>
 </resources>
