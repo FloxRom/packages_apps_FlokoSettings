@@ -911,7 +911,7 @@
     <string name="notification_heads_up_summary">Permitir notificações pop-up</string>
     <!-- Heads up timeout -->
     <string name="heads_up_category">Notificações</string>
-    <string name="heads_up_time_out_title">Tempo esgotado</string>
+    <string name="heads_up_time_out_title">Tempo limite</string>
     <string name="heads_up_time_out_summary">Mostrar notificação por <xliff:g id="number">%d</xliff:g> segundos</string>
     <string name="heads_up_time_out_2sec">2 segundos</string>
     <string name="heads_up_time_out_4sec">4 segundos</string>
@@ -2325,6 +2325,9 @@
     <string name="pattern_mm_mm_mm">mm-mm-mm</string>
     <string name="pattern_da_da_dzzz">da-da-dzzz</string>
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Personalizado</string>
+    <string name="custom_vibration_pattern_title">Padrão personalizado</string>
+    <string name="custom_vibration_pattern_summary">Definir um padrão de vibração personalizado</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Toque de chamada - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->

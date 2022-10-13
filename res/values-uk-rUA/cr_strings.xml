@@ -2312,8 +2312,8 @@
     <string name="vibration_preferences">Вібрація &amp; тактиктильний відгук</string>
     <string name="summary_vibration_preferences">Змінити інтенсивність, шаблони і багато іншого</string>
     <string name="keywords_vibration_preferences">шаблон вібросигналу, інтенсивність, відбрація при дзвінку, тактильна вібрація, дотик, сила вібрації</string>
-    <string name="ringtone_vibration_pattern">Інтенсивність вібрації мелодії</string>
-    <string name="vibration_intensity_ringer">Інтенсивність вібрації мелодії</string>
+    <string name="ringtone_vibration_pattern">Шаблон вібрації під час викликів</string>
+    <string name="vibration_intensity_ringer">Інтенсивність вібрації під час викликів</string>
     <string name="vibration_intensity_notification">Інтенсивність вібрації при сповіщенні</string>
     <string name="vibration_intensity_disabled">Вимкнено</string>
     <string name="vibration_intensity_light">Низький</string>
@@ -2325,6 +2325,9 @@
     <string name="pattern_mm_mm_mm">мм-мм-мм</string>
     <string name="pattern_da_da_dzzz">да-да-дззз</string>
     <string name="pattern_da_dzzz_da">да-дззз-да</string>
+    <string name="pattern_custom">Користувацький</string>
+    <string name="custom_vibration_pattern_title">Користувацький шаблон</string>
+    <string name="custom_vibration_pattern_summary">Встановіть власний шаблон вібрації</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
     <string name="ringtone1_title">Мелодія дзвінка - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->

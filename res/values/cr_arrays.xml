@@ -2377,6 +2377,7 @@
         <item>@string/pattern_mm_mm_mm</item>
         <item>@string/pattern_da_da_dzzz</item>
         <item>@string/pattern_da_dzzz_da</item>
+        <item>@string/pattern_custom</item>
     </string-array>
 
     <string-array name="ringtone_vibration_pattern_values" translatable="false">
@@ -2385,6 +2386,7 @@
         <item>2</item>
         <item>3</item>
         <item>4</item>
+        <item>5</item>
     </string-array>
 
     <!-- Wired headset ringtone audio focus -->
